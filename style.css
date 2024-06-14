@@ -1,0 +1,51 @@
+*{
+    margin: 0 ;
+    padding: 0;
+}
+.blink{
+    animation : blinker 1.5s linear infinite;
+    color:rgb(66, 76, 87);
+    font-family: sans-serif;
+    text-align: start;
+    font-size: 40px;
+    margin-left: 50px;
+}
+@keyframes blinker {
+    50%{
+        opacity: 0;
+    }
+    
+}
+body{
+    background-image: url(https://content.jdmagicbox.com/comp/kasganj/f9/9999p5744.5744.211130161513.f3f9/catalogue/aarvi-beauty-parlour-kasganj-kasganj-beauty-parlours-for-bridal-3yn0suysjn.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+.counters{
+    background-color: rgb(66, 76, 87);
+    color: white;
+    padding: 40px 20px;
+    border-top: 3px lightslategray solid;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:30px;
+    text-align: center;
+}
+.container i{
+    color: rgb(202, 221, 240);
+    margin-bottom: 5px;
+}
+.container .counter{
+    font-size: 30px;
+}
+.container h3{
+    font-size: 20px;
+    color:rgb(172, 208, 247);
+}
